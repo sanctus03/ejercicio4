@@ -7,7 +7,7 @@ from defines import *
 def main2(size, titulo, azul):
 
     screen = pygame.display.set_mode(size)
-    pygame.display.set_caption("size")
+    pygame.display.set_caption(titulo)
     background = pygame.Surface(screen.get_size())
     background.fill((0, 0, 0))
 
